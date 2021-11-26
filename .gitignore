@@ -1,0 +1,36 @@
+
+###> symfony/framework-bundle ###
+.idea/
+
+api/.env.local
+api/.env.local.php
+api/.env.*.local
+api/config/secrets/prod/prod.decrypt.private.php
+api/public/bundles/
+api/src/Migrations
+api/var/
+api/vendor/
+api/.idea/
+api/public/images/clinicalCases/*
+!api/public/images/clinicalCases/.gitkeep
+api/public/images/users/*
+!api/public/images/users/.gitkeep
+api/public/images/clinicalCasesOmnipratique/*
+!api/public/images/clinicalCasesOmnipratique/.gitkeep
+
+.DS_Store
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+api/.phpunit
+api/.phpunit.result.cache
+api/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+api/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
